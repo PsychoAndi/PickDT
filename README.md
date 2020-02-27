@@ -12,3 +12,4 @@ Details:
 - date and time textfields are readonly
 - free
 
+- works only in modal mode (Window.ShowModal)
