@@ -1,11 +1,12 @@
 # PickDT
 Xojo Simple DatePicker - very simple datepicker, tested on Mac OS and Windows. 
+Technics and idea are from Andreas Vogt http://www.accessblog.de/?s=Datepicker.
 
 Made with Xojo lite for Mac. Source is documented in german.
 
 Details:
 
-- containercontrol with no use of external libs or graphics
+- Containercontrol with no use of external libs or graphics
 - easy to change
 - no AM/PM-mode, for now it is just for 24 hours
 - week starts on monday
