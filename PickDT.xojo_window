@@ -2942,8 +2942,8 @@ End
 #tag Events UpDownMinute
 	#tag Event
 		Sub Up()
-		  // Minuten -1
-		  PminutePlusMinus(-1)
+		  // Minuten +1
+		  PminutePlusMinus(1)
 		End Sub
 	#tag EndEvent
 	#tag Event
