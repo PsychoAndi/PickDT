@@ -8,8 +8,9 @@ Details:
 
 - Containercontrol with no use of external libs or graphics
 - easy to change
+- in english and german
 - no AM/PM-mode, for now it is just for 24 hours
-- week starts on monday
+- week can start on monday and on sunday (set PickDT.weekstartsonmonday = False)
 - date and time textfields are readonly
 - works (as it is) in modal mode (Window.ShowModal)
 - you have to put it into a window, to open it in a non modal state
