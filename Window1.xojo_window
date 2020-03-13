@@ -264,6 +264,8 @@ End
 		  End If
 		  
 		  'MyDatePicker.currentDate = New DateTime(2020,8,27,7,20)
+		  'MyDatePicker.weekstartsonmonday = False
+		  
 		  MyDatePicker.resultTextField = TextField1
 		  MyDatePicker.resultAsSQLDateTime = True
 		  

@@ -53,7 +53,7 @@ Begin ContainerControl PickDT
          AllowAutoDeactivate=   True
          Bold            =   True
          Cancel          =   False
-         Caption         =   "Cancel"
+         Caption         =   "#l_cancel"
          Default         =   False
          Enabled         =   True
          FontName        =   "System"
@@ -2103,7 +2103,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_mo
+   Begin Label lab_d1
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2138,7 +2138,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_di
+   Begin Label lab_d2
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2173,7 +2173,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_mi
+   Begin Label lab_d3
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2208,7 +2208,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_do
+   Begin Label lab_d4
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2243,7 +2243,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_fr
+   Begin Label lab_d5
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2278,7 +2278,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_sa
+   Begin Label lab_d6
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2313,7 +2313,7 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   36
    End
-   Begin Label lab_so
+   Begin Label lab_d7
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2352,7 +2352,7 @@ Begin ContainerControl PickDT
       AllowAutoDeactivate=   True
       Bold            =   False
       Cancel          =   False
-      Caption         =   "Today"
+      Caption         =   "#l_today"
       Default         =   False
       Enabled         =   True
       FontName        =   "SmallSystem"
@@ -2436,7 +2436,7 @@ Begin ContainerControl PickDT
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   138
+      Left            =   103
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2448,15 +2448,15 @@ Begin ContainerControl PickDT
       TabIndex        =   57
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "0"
+      TextAlignment   =   "3"
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   286
       Transparent     =   False
       Underline       =   False
-      Value           =   "Time:"
+      Value           =   "#l_time"
       Visible         =   True
-      Width           =   42
+      Width           =   69
    End
    Begin UpDownArrows UpDownHour
       AllowAutoDeactivate=   True
@@ -2560,7 +2560,7 @@ Begin ContainerControl PickDT
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   138
+      Left            =   103
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2572,21 +2572,21 @@ Begin ContainerControl PickDT
       TabIndex        =   67
       TabPanelIndex   =   0
       TabStop         =   True
-      TextAlignment   =   "0"
+      TextAlignment   =   "3"
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   259
       Transparent     =   False
       Underline       =   False
-      Value           =   "Date:"
+      Value           =   "#l_date"
       Visible         =   True
-      Width           =   42
+      Width           =   69
    End
    Begin PushButton btn_ok
       AllowAutoDeactivate=   True
       Bold            =   True
       Cancel          =   False
-      Caption         =   "OK"
+      Caption         =   "#l_ok"
       Default         =   False
       Enabled         =   True
       FontName        =   "System"
@@ -2634,6 +2634,25 @@ End
 		    currentDate = Datetime.Now
 		  End If
 		  
+		  // Tageskürzel
+		  If weekstartsonmonday Then
+		    lab_d1.Value = monday_short
+		    lab_d2.Value = tuesday_short
+		    lab_d3.Value = wednesday_short
+		    lab_d4.Value = thursday_short
+		    lab_d5.Value = friday_short
+		    lab_d6.Value = saturday_short
+		    lab_d7.Value = sunday_short
+		  Else
+		    lab_d1.Value = sunday_short
+		    lab_d2.Value = monday_short
+		    lab_d3.Value = tuesday_short
+		    lab_d4.Value = wednesday_short
+		    lab_d5.Value = thursday_short
+		    lab_d6.Value = friday_short
+		    lab_d7.Value = saturday_short
+		  End If
+		  
 		  // Picker füllen
 		  fillCalendar(currentDate, True)
 		  
@@ -2672,8 +2691,13 @@ End
 		  Next i
 		  
 		  //Offset setzen (Wochentag des Monatsanfangs ermitteln, Samstag = 7, Sonntag = 1)
-		  offset = month_begin.DayOfWeek
-		  If offset < 2 Then offset = 8
+		  If weekstartsonmonday Then
+		    offset = month_begin.DayOfWeek
+		    If offset < 2 Then offset = 8
+		  Else
+		    offset = month_begin.DayOfWeek+1
+		    If offset < 1 Then offset = 7
+		  End If
 		  
 		  //gewünschten Tag markieren, falls withDay = True
 		  If withDay Then
@@ -2730,19 +2754,19 @@ End
 		Private Function monthName(month As Integer) As String
 		  //Array mit Monatsnamen füllen 
 		  
-		  months(0) ="None"
-		  months(1) ="January"
-		  months(2) ="February"
-		  months(3) ="March"
-		  months(4) ="April"
-		  months(5) ="May"
-		  months(6) ="June"
-		  months(7) ="July"
-		  months(8) ="August"
-		  months(9) ="September"
-		  months(10) ="October"
-		  months(11) ="November"
-		  months(12) ="December"
+		  months(0) = "None"
+		  months(1) = month1
+		  months(2) = month2
+		  months(3) = month3
+		  months(4) = month4
+		  months(5) = month5
+		  months(6) = month6
+		  months(7) = month7
+		  months(8) = month8
+		  months(9) = month9
+		  months(10) = month10
+		  months(11) = month11
+		  months(12) = month12
 		  
 		  //Rückgabe des Namen
 		  
@@ -2822,8 +2846,153 @@ End
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
-		weekdays(7) As String
+		weekstartsonmonday As Boolean = True
 	#tag EndProperty
+
+
+	#tag Constant, Name = friday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Fr"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Fr"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Fr"
+	#tag EndConstant
+
+	#tag Constant, Name = l_cancel, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Cancel"
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Cancel"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Abbruch"
+	#tag EndConstant
+
+	#tag Constant, Name = l_date, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Date:"
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Date:"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Datum:"
+	#tag EndConstant
+
+	#tag Constant, Name = l_ok, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"OK"
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"OK"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"OK"
+	#tag EndConstant
+
+	#tag Constant, Name = l_time, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Time:"
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Time:"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Uhrzeit:"
+	#tag EndConstant
+
+	#tag Constant, Name = l_today, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Today"
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Today"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Heute"
+	#tag EndConstant
+
+	#tag Constant, Name = monday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Mo"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Mo"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Mo"
+	#tag EndConstant
+
+	#tag Constant, Name = month1, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"January"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Januar"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"January"
+	#tag EndConstant
+
+	#tag Constant, Name = month10, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"October"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Oktober"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"October"
+	#tag EndConstant
+
+	#tag Constant, Name = month11, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"November"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"November"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"November"
+	#tag EndConstant
+
+	#tag Constant, Name = month12, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"December"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Dezember"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"December"
+	#tag EndConstant
+
+	#tag Constant, Name = month2, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"February"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Februar"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"February"
+	#tag EndConstant
+
+	#tag Constant, Name = month3, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"March"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"M\xC3\xA4rz"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"March"
+	#tag EndConstant
+
+	#tag Constant, Name = month4, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"April"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"April"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"April"
+	#tag EndConstant
+
+	#tag Constant, Name = month5, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"May"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Mai"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"May"
+	#tag EndConstant
+
+	#tag Constant, Name = month6, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"June"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Juni"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"June"
+	#tag EndConstant
+
+	#tag Constant, Name = month7, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"July"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Juli"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"July"
+	#tag EndConstant
+
+	#tag Constant, Name = month8, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"August"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"August"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"August"
+	#tag EndConstant
+
+	#tag Constant, Name = month9, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"September"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"September"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"September"
+	#tag EndConstant
+
+	#tag Constant, Name = saturday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Sa"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Sa"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Sa"
+	#tag EndConstant
+
+	#tag Constant, Name = sunday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Su"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"So"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Su"
+	#tag EndConstant
+
+	#tag Constant, Name = thursday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Th"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Do"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Th"
+	#tag EndConstant
+
+	#tag Constant, Name = tuesday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"Tu"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Di"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"Tu"
+	#tag EndConstant
+
+	#tag Constant, Name = wednesday_short, Type = String, Dynamic = False, Default = \"", Scope = Public
+		#Tag Instance, Platform = Any, Language = en, Definition  = \"We"
+		#Tag Instance, Platform = Any, Language = de, Definition  = \"Mi"
+		#Tag Instance, Platform = Any, Language = Default, Definition  = \"We"
+	#tag EndConstant
 
 
 #tag EndWindowCode
@@ -2959,26 +3128,12 @@ End
 		  // Picker schließen, .currentDate kann ausgelesen werden
 		  
 		  If resultLabel <> Nil Then
-		    // Je nach Computer-System...
-		    #If TargetMacOS
-		      // ...sind die Datum-Ausgaben anders
-		      resultLabel.Value = weekdays(currentDate.DayOfWeek-1) + currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
-		    #ElseIf TargetWindows
-		      // ...hier ist es Short
-		      resultLabel.Value = weekdays(currentDate.DayOfWeek-1) + currentDate.ToString(Locale.Current, DateTime.FormatStyles.Short, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
-		    #EndIf
+		    resultLabel.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
 		    resultLabel.Tooltip = currentDate.SQLDateTime
 		  End If
 		  
 		  If resultTextField <> Nil Then
-		    // Je nach Computer-System...
-		    #If TargetMacOS
-		      // ...sind die Datum-Ausgaben anders
-		      resultTextField.Value = weekdays(currentDate.DayOfWeek-1) + currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
-		    #ElseIf TargetWindows
-		      // ...hier ist es Short
-		      resultTextField.Value = weekdays(currentDate.DayOfWeek-1) + currentDate.ToString(Locale.Current, DateTime.FormatStyles.Short, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
-		    #EndIf
+		    resultTextField.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
 		    resultTextField.Tooltip = currentDate.SQLDateTime
 		  End If
 		  
@@ -3210,6 +3365,14 @@ End
 		Visible=false
 		Group="Behavior"
 		InitialValue=""
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="weekstartsonmonday"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
 		Type="Boolean"
 		EditorType=""
 	#tag EndViewProperty
