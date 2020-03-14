@@ -22,15 +22,12 @@ Use it like this (just put the containercontrol into your own project):
 Var MyDatePicker As New PickDT
 
 // initial date, if not set then default = today
-
 MyDatePicker.currentDate = New DateTime(2020,8,27,7,20)
 
 // the textfield that is getting the result
-
 MyDatePicker.resultTextField = TextField1      
 
 // show the picker to pick a date/time
-
 MyDatePicker.ShowModal                                     
 
 -----------------------------------------------------------------------
