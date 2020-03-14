@@ -17,18 +17,29 @@ Details:
 - it's free, but pretty nice ;)
 
 Use it like this (just put the containercontrol into your own project):
-
+-----------------------------------------------------------------------
 Var MyDatePicker As New PickDT
 
-'MyDatePicker.weekstartsonmonday = False                     ' default = True
-'MyDatePicker.AMPM = True                                    ' default = False
+// initial date, if not set then default = today
 
-MyDatePicker.currentDate = New DateTime(2020,8,27,7,20)      ' an initial date, default = today
-MyDatePicker.resultTextField = TextField1                    ' a textfield getting the result
-MyDatePicker.resultAsSQLDateTime = True                      ' if you want the result as a SQLDate
+MyDatePicker.currentDate = New DateTime(2020,8,27,7,20)
 
-MyDatePicker.ShowModal                                       ' show the picker and pick a date/time
+// the textfield that is getting the result
 
-The result will be in MyDatePicker.currentDate.
+MyDatePicker.resultTextField = TextField1      
 
+// show the picker to pick a date/time
 
+MyDatePicker.ShowModal                                     
+
+-----------------------------------------------------------------------
+
+Some properties of the Date&Time-Picker:
+
+- PickDT.weekstartsonmonday (Boolean, default = True)
+- PickDT.weekendColored (Boolean, default = True)
+- PickDT.weekendColor (Color, default = &cFFA8A8, red)
+- PickDT.weekendBold (Boolean, default = True)
+- PickDT.AMPM (Boolean, default = False - set True if you need the time in 12h-format)
+- PickDT.currentDate (DateTime, the result if something is selected)
+- PickDT.resultTextField / resultLabel (optional control where the result is displayed)
