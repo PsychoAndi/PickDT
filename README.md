@@ -29,7 +29,7 @@ MyDatePicker.resultTextField = TextField1
 
 // show the picker to pick a date/time
 MyDatePicker.ShowModal                                     
-
+ 
 -----------------------------------------------------------------------
 
 Some properties of the Date&Time-Picker:
