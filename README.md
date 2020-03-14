@@ -16,6 +16,7 @@ Details:
 - you have to put it into a window, to open it in a non modal state
 - it's free, but pretty nice ;)
 
+
 Use it like this (just put the containercontrol into your own project):
 -----------------------------------------------------------------------
 Var MyDatePicker As New PickDT
@@ -40,6 +41,7 @@ Some properties of the Date&Time-Picker:
 - PickDT.weekendColored (Boolean, default = True)
 - PickDT.weekendColor (Color, default = &cFFA8A8, red)
 - PickDT.weekendBold (Boolean, default = True)
+- PickDT.formatMonthDay (Boolean, default = False - set true if you need "3/14/2020")
 - PickDT.AMPM (Boolean, default = False - set True if you need the time in 12h-format)
 - PickDT.currentDate (DateTime, the result if something is selected)
 - PickDT.resultTextField / resultLabel (optional control where the result is displayed)
