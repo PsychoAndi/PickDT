@@ -263,8 +263,12 @@ End
 		    End Try
 		  End If
 		  
+		  // Für Experimente
 		  'MyDatePicker.currentDate = New DateTime(2020,8,27,7,20)
 		  'MyDatePicker.weekstartsonmonday = False
+		  'MyDatePicker.weekendColored = False
+		  'MyDatePicker.weekendBold = False
+		  'MyDatePicker.AMPM = True
 		  
 		  MyDatePicker.resultTextField = TextField1
 		  MyDatePicker.resultAsSQLDateTime = True

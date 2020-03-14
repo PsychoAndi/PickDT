@@ -268,8 +268,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -304,7 +304,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "42"
       CaptionAlignment=   "3"
@@ -312,8 +312,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -334,7 +334,7 @@ Begin ContainerControl PickDT
       TabIndex        =   42
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   218
       Transparent     =   True
@@ -356,8 +356,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -400,8 +400,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -444,8 +444,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -488,8 +488,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -524,7 +524,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "6"
       CaptionAlignment=   "3"
@@ -532,8 +532,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -554,7 +554,7 @@ Begin ContainerControl PickDT
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   63
       Transparent     =   True
@@ -568,7 +568,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "7"
       CaptionAlignment=   "3"
@@ -576,8 +576,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -598,7 +598,7 @@ Begin ContainerControl PickDT
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   63
       Transparent     =   True
@@ -620,8 +620,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -664,8 +664,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -708,8 +708,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -752,8 +752,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -796,8 +796,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -832,7 +832,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "1"
       CaptionAlignment=   "3"
@@ -840,8 +840,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -862,7 +862,7 @@ Begin ContainerControl PickDT
       TabIndex        =   13
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   94
       Transparent     =   True
@@ -876,7 +876,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "14"
       CaptionAlignment=   "3"
@@ -884,8 +884,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -906,7 +906,7 @@ Begin ContainerControl PickDT
       TabIndex        =   14
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   94
       Transparent     =   True
@@ -928,8 +928,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -972,8 +972,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1016,8 +1016,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1060,8 +1060,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1104,8 +1104,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1140,7 +1140,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "1"
       CaptionAlignment=   "3"
@@ -1148,8 +1148,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1170,7 +1170,7 @@ Begin ContainerControl PickDT
       TabIndex        =   20
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   125
       Transparent     =   True
@@ -1184,7 +1184,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "21"
       CaptionAlignment=   "3"
@@ -1192,8 +1192,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1214,7 +1214,7 @@ Begin ContainerControl PickDT
       TabIndex        =   21
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   125
       Transparent     =   True
@@ -1236,8 +1236,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1280,8 +1280,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1324,8 +1324,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1368,8 +1368,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1412,8 +1412,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1448,7 +1448,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "1"
       CaptionAlignment=   "3"
@@ -1456,8 +1456,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1478,7 +1478,7 @@ Begin ContainerControl PickDT
       TabIndex        =   27
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   156
       Transparent     =   True
@@ -1492,7 +1492,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "28"
       CaptionAlignment=   "3"
@@ -1500,8 +1500,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1522,7 +1522,7 @@ Begin ContainerControl PickDT
       TabIndex        =   28
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   156
       Transparent     =   True
@@ -1544,8 +1544,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1588,8 +1588,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1632,8 +1632,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1676,8 +1676,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1720,8 +1720,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1756,7 +1756,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "1"
       CaptionAlignment=   "3"
@@ -1764,8 +1764,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1786,7 +1786,7 @@ Begin ContainerControl PickDT
       TabIndex        =   34
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   187
       Transparent     =   True
@@ -1800,7 +1800,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "35"
       CaptionAlignment=   "3"
@@ -1808,8 +1808,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1830,7 +1830,7 @@ Begin ContainerControl PickDT
       TabIndex        =   35
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   187
       Transparent     =   True
@@ -1852,8 +1852,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1896,8 +1896,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1940,8 +1940,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -1984,8 +1984,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -2028,8 +2028,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -2064,7 +2064,7 @@ Begin ContainerControl PickDT
       AllowFocus      =   False
       BackgroundColor =   &cFFFFFF00
       BevelStyle      =   "4"
-      Bold            =   True
+      Bold            =   False
       ButtonStyle     =   "1"
       Caption         =   "1"
       CaptionAlignment=   "3"
@@ -2072,8 +2072,8 @@ Begin ContainerControl PickDT
       CaptionPosition =   "0"
       Enabled         =   True
       FontName        =   "System"
-      FontSize        =   18.0
-      FontUnit        =   0
+      FontSize        =   0.0
+      FontUnit        =   2
       HasBackgroundColor=   True
       Height          =   32
       Icon            =   0
@@ -2094,7 +2094,7 @@ Begin ContainerControl PickDT
       TabIndex        =   41
       TabPanelIndex   =   0
       TabStop         =   True
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   218
       Transparent     =   True
@@ -2304,7 +2304,7 @@ Begin ContainerControl PickDT
       TabPanelIndex   =   0
       TabStop         =   True
       TextAlignment   =   "2"
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   44
       Transparent     =   False
@@ -2339,7 +2339,7 @@ Begin ContainerControl PickDT
       TabPanelIndex   =   0
       TabStop         =   True
       TextAlignment   =   "2"
-      TextColor       =   &cFF8A8A00
+      TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   44
       Transparent     =   False
@@ -2399,7 +2399,7 @@ Begin ContainerControl PickDT
       Hint            =   ""
       Index           =   -2147483648
       Italic          =   False
-      Left            =   184
+      Left            =   174
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2421,7 +2421,7 @@ Begin ContainerControl PickDT
       ValidationMask  =   ""
       Value           =   "01.01.2020"
       Visible         =   True
-      Width           =   80
+      Width           =   89
    End
    Begin Label lab_time
       AllowAutoDeactivate=   True
@@ -2436,7 +2436,7 @@ Begin ContainerControl PickDT
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   103
+      Left            =   98
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2465,7 +2465,7 @@ Begin ContainerControl PickDT
       Height          =   24
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   183
+      Left            =   173
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2488,7 +2488,7 @@ Begin ContainerControl PickDT
       Height          =   24
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   251
+      Left            =   230
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2523,7 +2523,7 @@ Begin ContainerControl PickDT
       Hint            =   ""
       Index           =   -2147483648
       Italic          =   False
-      Left            =   198
+      Left            =   188
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2545,9 +2545,9 @@ Begin ContainerControl PickDT
       ValidationMask  =   ""
       Value           =   "23:33"
       Visible         =   True
-      Width           =   50
+      Width           =   40
    End
-   Begin Label lab_time1
+   Begin Label lab_date
       AllowAutoDeactivate=   True
       Bold            =   True
       DataField       =   ""
@@ -2560,7 +2560,7 @@ Begin ContainerControl PickDT
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   103
+      Left            =   98
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -2614,6 +2614,41 @@ Begin ContainerControl PickDT
       Visible         =   True
       Width           =   55
    End
+   Begin Label lab_ampm
+      AllowAutoDeactivate=   True
+      Bold            =   True
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   17
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   244
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   68
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextAlignment   =   "2"
+      TextColor       =   &c00000000
+      Tooltip         =   ""
+      Top             =   286
+      Transparent     =   False
+      Underline       =   False
+      Value           =   "AM"
+      Visible         =   False
+      Width           =   22
+   End
 End
 #tag EndWindow
 
@@ -2622,7 +2657,7 @@ End
 		Sub Open()
 		  // Unter Windows die Titelleiste verstecken
 		  #If TargetWindows
-		    // Wenn aktiv, dann kann das Fenster nicht verschoben werden
+		    // Wenn unkommentiert, dann kann das Fenster nicht verschoben werden
 		    'Declare Function SetWindowLongW Lib "User32" (HWND As Integer, Index As Integer, NewLong As Integer) As Integer
 		    'Const GWL_STYLE = -16
 		    'Const WS_POPUP = &h80000000
@@ -2643,6 +2678,10 @@ End
 		    lab_d5.Value = friday_short
 		    lab_d6.Value = saturday_short
 		    lab_d7.Value = sunday_short
+		    If weekendColored Then
+		      lab_d6.TextColor = weekendColor
+		      lab_d7.TextColor = weekendColor
+		    End If
 		  Else
 		    lab_d1.Value = sunday_short
 		    lab_d2.Value = monday_short
@@ -2651,12 +2690,19 @@ End
 		    lab_d5.Value = thursday_short
 		    lab_d6.Value = friday_short
 		    lab_d7.Value = saturday_short
+		    If weekendColored Then
+		      lab_d1.TextColor = weekendColor
+		      lab_d7.TextColor = weekendColor
+		    End If
 		  End If
 		  
-		  // Picker füllen
+		  // Picker füllen, gewählten Tag anzeigen
 		  fillCalendar(currentDate, True)
 		  
-		  // und anzeigen
+		  // AMPM anzeigen?
+		  lab_ampm.Visible = Me.AMPM
+		  
+		  // Containercontrol anzeigen
 		  Me.Show
 		  
 		  
@@ -2689,6 +2735,9 @@ End
 		    DayButton(i).BackgroundColor = &c000000
 		    DayButton(i).FontSize = 0
 		  Next i
+		  
+		  // Rote Buttons bei Wochenende?
+		  setWeekend(weekendColored, weekendBold)
 		  
 		  //Offset setzen (Wochentag des Monatsanfangs ermitteln, Samstag = 7, Sonntag = 1)
 		  If weekstartsonmonday Then
@@ -2729,6 +2778,7 @@ End
 		  //Buttons des aktuellen Monats setzen
 		  For i = 0 To month_end.Day-1
 		    DayButton(i+offset-1).Caption = Str(i+1)
+		    DayButton(i+offset-1).FontSize = 16
 		  Next i
 		  
 		  //Buttons des folgenden Monats setzen
@@ -2738,7 +2788,19 @@ End
 		  Next j
 		  
 		  // Uhrzeit ins Textfeld schreiben
-		  txt_time.Value = Format(fillDate.Hour, "00") + ":" + Format(fillDate.Minute, "00")
+		  If AMPM Then
+		    lab_ampm.Visible = True
+		    If fillDate.Hour > 12 Then 
+		      lab_ampm.Value = "PM"
+		      txt_time.Value = Format(fillDate.Hour - 12, "00") + ":" + Format(fillDate.Minute, "00")
+		    Else
+		      lab_ampm.Value = "AM"
+		      txt_time.Value = Format(fillDate.Hour, "00") + ":" + Format(fillDate.Minute, "00")
+		    End If
+		  Else
+		    lab_ampm.Visible = False
+		    txt_time.Value = Format(fillDate.Hour, "00") + ":" + Format(fillDate.Minute, "00")
+		  End If
 		  txt_date.Value = Format(fillDate.Day, "00") + "." + Format(fillDate.Month, "00") + "." + Format(fillDate.Year, "0000")
 		  
 		  // Datum merken (als Monatsersten)
@@ -2780,9 +2842,23 @@ End
 		  //geht eine Stunde vor oder zurück (-1 = zurück, 1 = vor)
 		  currentDate = currentDate.AddInterval(0, 0, 0, incr)
 		  
-		  // Uhrzeit ins Textfeld schreiben
-		  txt_time.Value = Format(currentDate.Hour, "00") + ":" + Format(currentDate.Minute, "00")
-		  
+		  // Uhrzeit ins Textfeld schreiben, bei AMPM umrechnen
+		  If AMPM Then
+		    lab_ampm.Visible = True
+		    Select Case currentDate.Hour
+		    Case Is > 12
+		      lab_ampm.Value = "PM"
+		      AMPMhour = currentDate.Hour - 12
+		    Case Is < 13
+		      lab_ampm.Value = "AM"
+		      AMPMhour = currentDate.Hour
+		    End select
+		    
+		    txt_time.Value = Format(AMPMhour, "00") + ":" + Format(currentDate.Minute, "00")
+		  Else
+		    lab_ampm.Visible = False
+		    txt_time.Value = Format(currentDate.Hour, "00") + ":" + Format(currentDate.Minute, "00")
+		  End If
 		  
 		End Sub
 	#tag EndMethod
@@ -2792,9 +2868,23 @@ End
 		  //geht eine Minute vor oder zurück (-1 = zurück, 1 = vor)
 		  currentDate = currentDate.AddInterval(0, 0, 0, 0, incr)
 		  
-		  // Uhrzeit ins Textfeld schreiben
-		  txt_time.Value = Format(currentDate.Hour, "00") + ":" + Format(currentDate.Minute, "00")
-		  
+		  // Uhrzeit ins Textfeld schreiben, bei AMPM umrechnen
+		  If AMPM Then
+		    lab_ampm.Visible = True
+		    Select Case currentDate.Hour
+		    Case Is > 12
+		      lab_ampm.Value = "PM"
+		      AMPMhour = currentDate.Hour - 12
+		    Case Is < 13
+		      lab_ampm.Value = "AM"
+		      AMPMhour = currentDate.Hour
+		    End select
+		    
+		    txt_time.Value = Format(AMPMhour, "00") + ":" + Format(currentDate.Minute, "00")
+		  Else
+		    lab_ampm.Visible = False
+		    txt_time.Value = Format(currentDate.Hour, "00") + ":" + Format(currentDate.Minute, "00")
+		  End If
 		  
 		End Sub
 	#tag EndMethod
@@ -2816,6 +2906,57 @@ End
 		End Sub
 	#tag EndMethod
 
+	#tag Method, Flags = &h21
+		Private Sub setWeekend(ColorOn As Boolean, BoldOn As Boolean)
+		  // setzt die Schrift der Buttons für Sa/So farbig oder macht alle sie schwarz
+		  If ColorOn Then
+		    If weekstartsonmonday Then
+		      For i As Integer = 6 To 41 Step 7
+		        DayButton(i).TextColor = weekendColor
+		        DayButton(i+1).TextColor = weekendColor
+		      Next
+		    Else
+		      For i As Integer = 1 To 36 Step 7
+		        DayButton(i).TextColor = weekendColor
+		        DayButton(i+6).TextColor = weekendColor
+		      Next
+		    End If
+		  Else
+		    For i As Integer = 1 To 42 
+		      DayButton(i).TextColor = &C000000
+		    Next
+		  End If
+		  
+		  // setzt die Schrift fett oder nicht
+		  If BoldOn Then
+		    If weekstartsonmonday Then
+		      For i As Integer = 6 To 41 Step 7
+		        DayButton(i).Bold = True
+		        DayButton(i+1).Bold = True
+		      Next
+		    Else
+		      For i As Integer = 1 To 36 Step 7
+		        DayButton(i).Bold = True
+		        DayButton(i+6).Bold = True
+		      Next
+		    End If
+		  Else
+		    For i As Integer = 1 To 42 
+		      DayButton(i).Bold = False
+		    Next
+		  End If
+		  
+		End Sub
+	#tag EndMethod
+
+
+	#tag Property, Flags = &h0
+		AMPM As Boolean = False
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
+		Private AMPMhour As Integer
+	#tag EndProperty
 
 	#tag Property, Flags = &h0
 		currentDate As DateTime
@@ -2834,6 +2975,10 @@ End
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
+		resultAMPM As String
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
 		resultAsSQLDateTime As Boolean
 	#tag EndProperty
 
@@ -2843,6 +2988,18 @@ End
 
 	#tag Property, Flags = &h0
 		resultTextField As Textfield
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		weekendBold As Boolean = True
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		weekendColor As Color = &cFF8A8A
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		weekendColored As Boolean = True
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
@@ -3126,17 +3283,33 @@ End
 	#tag Event
 		Sub Action()
 		  // Picker schließen, .currentDate kann ausgelesen werden
+		  Var hour As Integer = currentDate.Hour
+		  
+		  // AMPM verwalten, falls benötigt
+		  If currentDate <> Nil And AMPM Then
+		    If currentDate.Hour > 12 Then 
+		      hour = currentDate.Hour - 12
+		      resultAMPM = " PM"
+		    End If
+		    If currentDate.Hour < 12 Then 
+		      hour = currentDate.Hour
+		      resultAMPM = " AM"
+		    End If
+		  End If
 		  
 		  If resultLabel <> Nil Then
-		    resultLabel.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
+		    resultLabel.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " _
+		    + Format(hour, "00") + ":" + Format(currentDate.Minute, "00") + resultAMPM
 		    resultLabel.Tooltip = currentDate.SQLDateTime
 		  End If
 		  
 		  If resultTextField <> Nil Then
-		    resultTextField.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " + currentDate.Hour.ToString + ":" + currentDate.Minute.ToString
+		    resultTextField.Value = currentDate.ToString(Locale.Current, DateTime.FormatStyles.Medium, DateTime.FormatStyles.None) + " " _
+		    + Format(hour, "00") + ":" + Format(currentDate.Minute, "00") + resultAMPM
 		    resultTextField.Tooltip = currentDate.SQLDateTime
 		  End If
 		  
+		  // Fertig!
 		  Self.Close
 		  
 		  
@@ -3375,5 +3548,45 @@ End
 		InitialValue="True"
 		Type="Boolean"
 		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="AMPM"
+		Visible=false
+		Group="Behavior"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="weekendColored"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="weekendBold"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="weekendColor"
+		Visible=false
+		Group="Behavior"
+		InitialValue="&cFF8A8A"
+		Type="Color"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="resultAMPM"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
 	#tag EndViewProperty
 #tag EndViewBehavior
