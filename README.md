@@ -19,6 +19,8 @@ Details:
 
 Use it like this (just put the containercontrol into your own project):
 -----------------------------------------------------------------------
+// configure the "normal" Picker
+
 Var MyDatePicker As New PickDT
 
 // initial date, if not set then default = today
@@ -35,13 +37,21 @@ MyDatePicker.ShowModal
  
 -----------------------------------------------------------------------
 
-Some properties of the Date&Time-Picker:
+Here the 4 different pickers:
+- PickD = big, only date
+- PickDT = big, date and time
+- PickDmini = small, only date
+- PickDTmini = smal, date and time
 
-- PickDT.weekstartsonmonday (Boolean, default = True)
-- PickDT.weekendColored (Boolean, default = True)
-- PickDT.weekendColor (Color, default = &cFFA8A8, red)
-- PickDT.weekendBold (Boolean, default = True)
-- PickDT.formatMonthDay (Boolean, default = False - set true if you need "3/14/2020")
-- PickDT.AMPM (Boolean, default = False - set True if you need the time in 12h-format)
-- PickDT.currentDate (DateTime, the result if something is selected)
-- PickDT.resultTextField / resultLabel (optional control where the result is displayed)
+-----------------------------------------------------------------------
+
+Some properties of the Date&Time-Pickers 
+- Picker.weekstartsonmonday (Boolean, default = True)
+- Picker.weekendColored (Boolean, default = True)
+- Picker.weekendColor (Color, default = &cFFA8A8, red)
+- Picker.weekendBold (Boolean, default = True)
+- Picker.formatMonthDay (Boolean, default = False - set true if you need "3/14/2020")
+- Picker.AMPM (Boolean, default = False - set True if you need the time in 12h-format)
+- Picker.pickerTitle (String, something like "Pick a date")
+- Picker.currentDate (DateTime, the result if something is selected)
+- Picker.resultTextField / resultLabel (optional control where the result is displayed)
