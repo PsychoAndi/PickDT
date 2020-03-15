@@ -37,15 +37,15 @@ MyDatePicker.ShowModal
  
 -----------------------------------------------------------------------
 
-Here the 4 different pickers:
+The 4 different pickers:
 - PickD = big, only date
 - PickDT = big, date and time
 - PickDmini = small, only date
-- PickDTmini = smal, date and time
+- PickDTmini = small, date and time
 
 -----------------------------------------------------------------------
 
-Some properties of the Date&Time-Pickers 
+Some properties of the Date&Time-Pickers:
 - Picker.weekstartsonmonday (Boolean, default = True)
 - Picker.weekendColored (Boolean, default = True)
 - Picker.weekendColor (Color, default = &cFFA8A8, red)
